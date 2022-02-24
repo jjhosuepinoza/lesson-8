@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+
 :root {
 	--back: rgb(75, 95, 184);
   --back2: rgba(41, 120, 134, 0.5);
@@ -14,13 +17,6 @@ table {
 	border: thin solid var(--border);
 	box-shadow: 0 0 30px var(--shadow);
 	border-collapse: collapse;
-}
-
-caption {
-  padding: 10px;
-  caption-side: bottom;
-	color: var(--back);
-	font-size: .85rem;
 }
 
 tr:first-child th {
@@ -43,4 +39,8 @@ td {
 
 tbody tr:nth-child(even) {
 	background-color: var(--zebra);
+}
+
+.body{
+	font-family: 'Ubuntu', sans-serif;
 }
