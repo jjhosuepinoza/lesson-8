@@ -3,13 +3,13 @@
 
 :root {
 	--back: rgb(75, 95, 184);
-  --back2: rgba(98, 237, 241, 0.5);
-  --foredark: hsla(0,0%,10%,1);
+  --back2: rgba(69, 105, 223, 0.5);
+  --foredark: rgb(26, 26, 26);
 	--forelight: hsla(0,0%,100%,1);
 	--border: hsl(0,0%,20%);
-	--borderlight: rgb(112, 108, 108);
-	--shadow: hsl(0,0%,50%);
-	--zebra: hsl(0, 0%, 93%, 1);
+	--borderlight: rgb(96, 112, 185);
+	--shadow: rgb(179, 175, 236);
+	--zebra: rgb(203, 212, 236);
 }
 
 table {
@@ -26,7 +26,7 @@ tr:first-child th {
 
 th, td {
 	padding: 7px 15px;
-	border: 1px solid var(--borderlight);
+	border: 2px solid var(--borderlight);
 }
 
 th {
